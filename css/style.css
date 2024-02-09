@@ -167,6 +167,7 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+  border:1px solid white;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -181,7 +182,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #000000;
+  background-color: white;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -197,7 +198,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: white;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all .3s;
