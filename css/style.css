@@ -63,7 +63,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  /* padding: 4%; */
 }
+
 
 h1,
 h2 {
@@ -910,6 +912,12 @@ a:focus {
 
 .errBody{
   background-color: #d1e3ff;
+}
+
+.heading_bvg{
+  padding: 5px 25px;
+  background-color:#93A661;
+  margin-block-end: 0px;
 }
 
 /* end footer section*/
