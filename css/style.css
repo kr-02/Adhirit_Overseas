@@ -466,6 +466,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
   color: #0355cc;
+  /* width : 20px; */
 }
 
 .professional_section .detail-box p {
@@ -487,10 +488,6 @@ a:focus {
 .professional_section .detail-box a:hover {
   background-color: transparent;
   color: #ff8a1d;
-}
-
-.service_section {
-  /* position: relative; */
 }
 
 .service_section .box {
@@ -915,10 +912,36 @@ a:focus {
 }
 
 .heading_bvg{
-  padding: 5px 25px;
+  padding: 5px 200px;
   background-color:#93A661;
   margin-block-end: 0px;
 }
 
-/* end footer section*/
-/*# sourceMappingURL=style.css.map */
+.cd_bg{
+  background-color: #559aff;
+}
+
+.h2_pulses{
+  margin-block-end: 0px;
+  padding: 5px 200px;
+  background-color:#93A661;
+  margin-block-end: 0px;
+  /* background-image: url("../images/adhirit images/lentils.jpeg") no-repeat 0 50%; */
+  /* background: rgba(255, 255, 255, 0.5) url(/images/arrow.png) no-repeat 0 50%;
+  color: white; */
+}
+
+.prod-container{
+  margin-top: 40px;
+}
+
+.about-prod{
+  padding: 40px;
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
+  border-style: outset;
+  /* color: #0355cc; */
+  color: navy;
+  background-color: #d1e3ff;
+}

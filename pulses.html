@@ -32,6 +32,12 @@
 </head>
 
 <body>
+  <script>
+    function showDiscription(){
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+  </script>
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -95,8 +101,8 @@
   <section class="service_section layout_padding">
     <div class="container ">
       <div class="heading_container heading_center">
-      <div class="heading_bvg">
-        <h2 style="letter-spacing: 7px; color: #0c374d;"> Pulses </h2>
+      <div class="heading_bvg h2_pulses">
+        <h2 style="margin-block-end: 0px; letter-spacing: 10px; color: #0a0f43"> Pulses </h2>
       </div>
       </div>
       <!-- <div class="row">
@@ -150,7 +156,7 @@
         </div>
       </div> -->
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col cardPD">
+        <div class="col cardPD" onclick="showDiscription()">
           <div class="card h-100">
             <img src="images/adhirit images/pulses/channa dal.png" class="card-img-top" alt="...">
             <div class="card-footer cd_footer_text">
@@ -183,8 +189,8 @@
           </div>
         </div>
         <div class="col cardPD">
-            <div class="card h-100">
-              <img src="images/adhirit images/pulses/Moong dal.png" class="card-img-top " alt="...">
+            <div class="card h-100 cd_bg">
+              <img src="images/adhirit images/pulses/moong_dal.png" class="card-img-top " alt="...">
               <div class="card-footer cd_footer_text">
                 <span>Moong Dal</span>
               </div>
@@ -296,7 +302,6 @@
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
   <!-- End Google Map -->
-
 
 </body>
 
