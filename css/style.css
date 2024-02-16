@@ -490,10 +490,6 @@ a:focus {
   color: #ff8a1d;
 }
 
-.service_section {
-  /* position: relative; */
-}
-
 .service_section .box {
   margin-top: 30px;
   text-align: center;
